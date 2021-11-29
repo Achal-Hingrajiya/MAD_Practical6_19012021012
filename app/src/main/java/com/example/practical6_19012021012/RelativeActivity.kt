@@ -10,7 +10,7 @@ class RelativeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_relative)
 
-        var bNav = findViewById<BottomNavigationView>(R.id.b_nav_constraint)
+        var bNav = findViewById<BottomNavigationView>(R.id.b_nav_rel)
 
         bNav.setOnItemSelectedListener {
             when(it.itemId){
