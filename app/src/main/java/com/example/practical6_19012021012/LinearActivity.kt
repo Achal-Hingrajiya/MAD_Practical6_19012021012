@@ -11,7 +11,7 @@ class LinearActivity : AppCompatActivity() {
         setContentView(R.layout.activity_linear)
 
 
-        var bNav = findViewById<BottomNavigationView>(R.id.b_nav_constraint)
+        var bNav = findViewById<BottomNavigationView>(R.id.b_nav_linear)
 
         bNav.setOnItemSelectedListener {
             when(it.itemId){
